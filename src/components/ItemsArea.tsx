@@ -16,6 +16,7 @@ const ItemsArea: React.FC<ItemsAreaProps> = ({ searchTerm }) => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const itemsPerPage = 15;
+  const baseUrl = import.meta.env.BASE_URL;
 
   const filteredProducts = searchTerm 
     ? productsData.filter(product =>
@@ -84,7 +85,7 @@ const ItemsArea: React.FC<ItemsAreaProps> = ({ searchTerm }) => {
                 key={index}
                 onSale={product.onSale}
                 inStock={product.inStock}
-                imageUrl={product.imageUrl}
+                imageUrl={`${baseUrl}${product.imageUrl}`}
                 game={product.game}
                 name={product.name}
                 price={product.price}

@@ -24,21 +24,21 @@ const ProductCard: React.FC<Product> = ({
   oldPrice,
   description
 }) => {
-
+  const baseUrl = import.meta.env.BASE_URL;
   const renderCategory = (game:string) =>{
       switch (game) {
         case 'rs':
-          return "http://localhost:5173/src/assets/rs.png"
+          return `${baseUrl}/src/assets/rs.png`
         case 'metin2':
-          return "http://localhost:5173/src/assets/metin.png"
+          return `${baseUrl}/src/assets/metin.png`
         case 'treeSavior':
-          return "http://localhost:5173/src/assets/treeSav.png"
+          return `${baseUrl}/src/assets/treeSav.png`
         case 'rs3':
-          return "http://localhost:5173/src/assets/rs3.png"
+          return `${baseUrl}/src/assets/rs3.png`
         case 'lol':
-          return "http://localhost:5173/src/assets/lol.png"
+          return `${baseUrl}/src/assets/lol.png`
         default:
-          return "http://localhost:5173/src/assets/rs.png"
+          return `${baseUrl}/src/assets/rs.png`
       }
   }
 

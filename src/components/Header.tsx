@@ -3,7 +3,7 @@ import styles from '../styles/Header.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faAngleUp, faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import profileIcon from '../assets/profile.webp';
-import SearchInput from '../components/SearchInput';
+import HeaderSearchInput from '../components/HeaderSearchInput';
 import chicksGoldLogo_svg from '../assets/chicks-logo-large.svg';
 import { currencies } from '../utils/currencies';
 
@@ -116,7 +116,7 @@ const Header: React.FC = () => {
             <FontAwesomeIcon icon={faTimes} />
             <span>Close</span>
           </button>
-          <SearchInput />
+          <HeaderSearchInput/>
         </div>
         <ul className={styles.menuLinks}>
           {navLinks.map((item, index) => (

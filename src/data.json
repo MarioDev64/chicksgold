@@ -2,7 +2,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/agePickaxe.png",
+        "imageUrl": "/src/assets/agePickaxe.png",
         "game": "rs",
         "name": "3rd Age Pickaxe",
         "price": "$3,064.50",
@@ -12,7 +12,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/twistedBow.png",
+        "imageUrl": "/src/assets/twistedBow.png",
         "game": "rs",
         "name": "Twisted Bow",
         "price": "$378.41",
@@ -22,7 +22,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/3rdAgeDruidicCloak.png",
+        "imageUrl": "/src/assets/3rdAgeDruidicCloak.png",
         "game": "rs",
         "name": "3rd Age Druidic Cloak",
         "price": "$862.60",
@@ -32,7 +32,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "91 Level Meley Block - D...",
         "price": "$111.43",
@@ -42,7 +42,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "9x Blacksmith Handbook...",
         "price": "$92.86",
@@ -52,7 +52,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "Blessing Scroll (200x)",
         "price": "$27.86",
@@ -62,7 +62,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/treeSavior.jpg",
+        "imageUrl": "/src/assets/treeSavior.jpg",
         "game": "treeSavior",
         "name": "L8000 Ginger",
         "price": "$31.57",
@@ -72,7 +72,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/treeSavior.jpg",
+        "imageUrl": "/src/assets/treeSavior.jpg",
         "game": "treeSavior",
         "name": "Legendary Cards",
         "price": "$22.29",
@@ -82,7 +82,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/treeSavior.jpg",
+        "imageUrl": "/src/assets/treeSavior.jpg",
         "game": "treeSavior",
         "name": "Boruta Seal +3 - Scout",
         "price": "$130.00",
@@ -92,7 +92,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/ChistmasCrakcer.png",
+        "imageUrl": "/src/assets/ChistmasCrakcer.png",
         "game": "rs3",
         "name": "Christmas Cracker",
         "price": "$7,365.56",
@@ -102,7 +102,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/bluePartyHat.png",
+        "imageUrl": "/src/assets/bluePartyHat.png",
         "game": "rs3",
         "name": "Blue Partyhat",
         "price": "$3,431.30",
@@ -112,7 +112,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/whitePartyHat.png",
+        "imageUrl": "/src/assets/whitePartyHat.png",
         "game": "rs3",
         "name": "White Partyhat",
         "price": "$2,753.75",
@@ -122,7 +122,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Normal Skins",
         "price": "$142.86",
@@ -132,7 +132,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Epic Skins",
         "price": "$142.86",
@@ -142,7 +142,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Legendary Skins",
         "price": "$142.86",
@@ -153,7 +153,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/bluePartyHat.png",
+        "imageUrl": "/src/assets/bluePartyHat.png",
         "game": "rs3",
         "name": "Blue Partyhat",
         "price": "$3,431.30",
@@ -163,7 +163,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/whitePartyHat.png",
+        "imageUrl": "/src/assets/whitePartyHat.png",
         "game": "rs3",
         "name": "White Partyhat",
         "price": "$2,753.75",
@@ -173,7 +173,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Normal Skins",
         "price": "$142.86",
@@ -183,7 +183,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Epic Skins",
         "price": "$142.86",
@@ -193,7 +193,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Legendary Skins",
         "price": "$142.86",
@@ -203,7 +203,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/whitePartyHat.png",
+        "imageUrl": "/src/assets/whitePartyHat.png",
         "game": "rs3",
         "name": "White Partyhat",
         "price": "$2,753.75",
@@ -213,7 +213,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Normal Skins",
         "price": "$142.86",
@@ -223,7 +223,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Epic Skins",
         "price": "$142.86",
@@ -233,7 +233,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Legendary Skins",
         "price": "$142.86",
@@ -243,7 +243,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Legendary Skins",
         "price": "$142.86",
@@ -253,7 +253,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/whitePartyHat.png",
+        "imageUrl": "/src/assets/whitePartyHat.png",
         "game": "rs3",
         "name": "White Partyhat",
         "price": "$2,753.75",
@@ -263,7 +263,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "9x Blacksmith Handbook...",
         "price": "$92.86",
@@ -273,7 +273,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "Blessing Scroll (200x)",
         "price": "$27.86",
@@ -283,7 +283,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/treeSavior.jpg",
+        "imageUrl": "/src/assets/treeSavior.jpg",
         "game": "treeSavior",
         "name": "L8000 Ginger",
         "price": "$31.57",
@@ -293,7 +293,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/treeSavior.jpg",
+        "imageUrl": "/src/assets/treeSavior.jpg",
         "game": "treeSavior",
         "name": "Legendary Cards",
         "price": "$22.29",
@@ -303,7 +303,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/treeSavior.jpg",
+        "imageUrl": "/src/assets/treeSavior.jpg",
         "game": "treeSavior",
         "name": "Boruta Seal +3 - Scout",
         "price": "$130.00",
@@ -313,7 +313,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/ChistmasCrakcer.png",
+        "imageUrl": "/src/assets/ChistmasCrakcer.png",
         "game": "rs3",
         "name": "Christmas Cracker",
         "price": "$7,365.56",
@@ -323,7 +323,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/bluePartyHat.png",
+        "imageUrl": "/src/assets/bluePartyHat.png",
         "game": "rs3",
         "name": "Blue Partyhat",
         "price": "$3,431.30",
@@ -333,7 +333,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/whitePartyHat.png",
+        "imageUrl": "/src/assets/whitePartyHat.png",
         "game": "rs3",
         "name": "White Partyhat",
         "price": "$2,753.75",
@@ -343,7 +343,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/leagueOfLegends.png",
+        "imageUrl": "/src/assets/leagueOfLegends.png",
         "game": "lol",
         "name": "Normal Skins",
         "price": "$142.86",
@@ -353,7 +353,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/twistedBow.png",
+        "imageUrl": "/src/assets/twistedBow.png",
         "game": "rs",
         "name": "Twisted Bow",
         "price": "$378.41",
@@ -363,7 +363,7 @@
     {
         "onSale": true,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/3rdAgeDruidicCloak.png",
+        "imageUrl": "/src/assets/3rdAgeDruidicCloak.png",
         "game": "rs",
         "name": "3rd Age Druidic Cloak",
         "price": "$862.60",
@@ -373,7 +373,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "91 Level Meley Block - D...",
         "price": "$111.43",
@@ -383,7 +383,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "9x Blacksmith Handbook...",
         "price": "$92.86",
@@ -393,7 +393,7 @@
     {
         "onSale": false,
         "inStock": true,
-        "imageUrl": "http://localhost:5173/src/assets/metin2.png",
+        "imageUrl": "/src/assets/metin2.png",
         "game": "metin2",
         "name": "Blessing Scroll (200x)",
         "price": "$27.86",

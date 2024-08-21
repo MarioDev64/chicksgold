@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from '../styles/Footer.module.scss';
 import chicksGoldLogo from '../assets/chicks-logo-large.svg';
 import arrowDown from '../assets/arrow-down.svg';
