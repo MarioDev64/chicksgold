@@ -1,0 +1,421 @@
+.container{
+    position: relative;
+    height: 100%;
+    
+}
+
+.footer{
+    height: 100%;
+    background: #303141;
+    
+}
+
+.footerContainer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #4c6085;
+    bottom: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.footerContent{
+    position: relative;
+}
+
+.logo{
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: unset;
+    text-decoration: none;
+    display: block;
+    img{
+        height: 48px;
+        width: 235px;
+    }
+}
+
+.contactEmail{
+    color: #fafcff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 15px auto 25px;
+    text-align: center;
+    display: block;
+}
+
+.footerDropdown{
+    .dropdownTop{
+        border-bottom: 1px solid #4c6085;
+        color: #fff;
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: .014px;
+        }
+        .arrowIcon{
+            // animation: rotateBack .3s ease 0s 1 normal forwards;
+            height: 5px;
+            // transform: rotate(180deg);
+            width: 10px;
+        }
+        
+        .dropdownContent{
+            font-size: 14px;
+            font-weight: 300;
+            margin: 0;
+            overflow: hidden;
+            animation: hide .3s ease 0s 1 normal forwards;
+            border-bottom: 1px solid #4c6085;
+            max-height: 1000px;
+            a:first-child{
+                margin-top: 17px;
+            }
+
+            a{
+                color: rgba(250, 252, 255, .7);
+                display: block;
+                margin: 15px 0;
+                opacity: .75;
+                width: -moz-fit-content;
+                width: fit-content;
+            }
+
+            @keyframes hide {
+                to {
+                    border-bottom: 0 solid #4c6085;
+                    max-height: 0
+                }
+            }
+        }
+
+        .inactive{
+            display: none !important;
+        }
+
+    }
+}
+
+.footer .footerContent .mainContent .infoSectionMobile .footerDropdown .dropdownContent {
+    display: none;
+}
+
+.infoSectionTabletDesktop{
+    display: none;
+    .footerSection{
+        color: #fff;
+        font-size: 20px;
+        text-align: left;
+        span{
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: normal;
+            width: -moz-fit-content;
+            width: fit-content;
+        }
+        
+        .links{
+            margin-top: 12px;
+            a{
+                color: rgba(250, 252, 255, .7);
+                display: block;
+                font-weight: 300;
+                letter-spacing: normal;
+                line-height: normal;
+                margin-bottom: 12px;
+                opacity: .75;
+                width: -moz-fit-content;
+                width: fit-content;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.trustpilotReviews{
+    margin: 28px auto 20px;
+    text-align: center;
+    a{
+        color: #fff !important;
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: .7;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .stars{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px auto 0;
+        width: -moz-fit-content;
+        width: fit-content;
+        span{
+            font-weight: 500;
+            margin-left: 5px;
+            margin-top: 1px;
+            font-size: 16px;
+            letter-spacing: .51px;
+        }
+    }
+}
+
+.socialMedia{
+    span{
+        display: none;
+    }
+
+    .socialMediaContainer{
+        margin: 0 auto;
+        max-width: 156px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        
+        .wrapper{
+            display: inline;
+            a{
+                margin-block: 0;
+                color: inherit;
+                font-weight: inherit;
+                min-width: unset;
+                padding: unset;
+                .socialMediaIcon{
+                    align-items: center;
+                    background-color: #5762d5;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: row;
+                    height: 30px;
+                    justify-content: center;
+                    overflow: hidden;
+                    width: 30px;
+                    &:hover{
+                        background-color: #4A54B7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyRight {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px auto 0;
+    max-width: 215px;
+    opacity: .75;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+    .footerContainer {
+        max-width: 960px;
+    }
+
+    .footerContent{
+        margin: 0 auto;
+        max-width: 1188px;
+        min-height: 385px;
+        width: 94.7%;
+    }
+
+    .footer .footerContent .socialMedia span{
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footerContainer {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .footerContainer {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 3839px) {
+    .footerContainer {
+        max-width: 1260px;
+    }
+}
+
+@media (768px <= width) {
+    #footerContainer {
+        min-height: auto;
+        padding: 27px 41px 20px;
+    }
+
+    .footer .footerContent .mainContent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .footerContent .mainContent .infoSection .logo img {
+        height: 39px;
+        width: 192px;
+    }
+
+    .footer .footerContent .mainContent .infoSection .contactEmail {
+        font-size: 14px;
+        margin: 15px 0 0;
+        text-align: left;
+    }
+
+    .footer .footerContent .mainContent .infoSectionMobile {
+        display: none;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop {
+        display: grid;
+        gap: 27px;
+        grid-template-columns: repeat(3, 112px);
+        margin-right: 15px;
+        margin-top: 23px;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop .footerSection .links {
+        margin-top: 17px;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop .footerSection .links a {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .footer .footerContent .trustpilotReviews{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        left: calc(100% - 129.09px);
+        margin: 20px 0 40px;
+        position: relative;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    .footer .footerContent .trustpilotReviews .stars {
+        margin: 5px 0 0;
+    }
+
+    .footer .footerContent .trustpilotReviews .stars span {
+        color: #fff;
+    }
+
+    .footer .footerContent .socialMedia{
+        position: absolute;
+        top: 95px;
+        width: 156px;
+    }
+
+    .footer .footerContent .copyRight {
+        font-size: 14px;
+        margin-top: 30px;
+        max-width: unset;
+    }
+}
+
+@media (992px <= width) {
+    .footerContainer {
+        border: none;
+        padding: 0;
+    }
+
+    .footer .footerContent .mainContent {
+        justify-content: space-evenly;
+        margin-top: 0;
+        max-width: 935px;
+        padding-top: 38px;
+        width: 82%;
+    }
+
+    .footer .footerContent .mainContent .infoSection .logo img {
+        height: 43px;
+    }
+
+    .footer .footerContent .mainContent .infoSection .contactEmail {
+        margin: 20px 0;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop {
+        gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 20px 0 0;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop .footerSection span {
+        font-size: 20px;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop .footerSection .links {
+        margin-top: 20px;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop .footerSection .links a {
+        margin-bottom: 15px;
+    }
+
+    .footer .footerContent .trustpilotReviews{
+        align-items: flex-start;
+        left: unset;
+        margin: 0;
+        min-width: 132px;
+        position: absolute;
+        right: 25px;
+        top: 149px;
+    }
+
+    .footer .footerContent .socialMedia{
+        right: 0;
+        top: 60px;
+        width: 156px;
+    }
+
+    .footer .footerContent .socialMedia span{
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .footer .footerContent .copyRight {
+        bottom: 20px;
+        position: absolute;
+    }
+}
+
+@media (1200px <= width) {
+    .footer .footerContent .mainContent {
+        justify-content: space-between;
+    }
+
+    .footer .footerContent .mainContent .infoSectionTabletDesktop {
+        display: flex;
+        gap: 0;
+        justify-content: space-between;
+        min-width: 633px;
+    }
+}
+

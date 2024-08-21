@@ -1,0 +1,63 @@
+.gameSelector{
+    display: flex;
+    background-color: #4c6085;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    position: relative;
+    max-height: 50px;
+    max-width: 294px;
+    cursor: pointer;
+
+    label{
+        margin-top: 2px;
+        margin-right: 8px;
+        font-size: 14px;
+        color: white;
+        position: absolute;
+        left: 50px;
+    }
+
+    .inputContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        width: 100%;
+    }
+
+    .gameControllerIcon{
+        width: 24px;
+        height: 24px;
+        margin-left: 12px;
+    }
+
+    .arrowIcon{
+        width: 11px;
+        height: 8px;
+        margin-right: 12px;
+    }
+
+    .selectInput{
+        border: none;
+        outline: none;
+        font-size: 14px;
+        padding: 5px;
+        appearance: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    &:hover{
+        background-color: #465778;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .gameSelector {
+        max-width: unset;
+        width: 100%;
+    }
+}

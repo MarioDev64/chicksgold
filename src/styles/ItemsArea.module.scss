@@ -1,0 +1,121 @@
+.mainContent{
+    background: #303141;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(44, 45, 51, .8);
+    min-height: 600px;
+    margin-top: 19px;
+    padding: 20px;
+}
+
+.sortArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showing{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+}
+
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    max-height: 50px;
+    width: 100%;
+    max-width: 198px;
+}
+
+.groupLeft{
+    display: flex;
+    gap: 10px;
+}
+
+.SortByFilter{
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(76, 96, 133, 0.2);
+    height: 50px;
+    color: #fff;
+    justify-content: space-between;
+
+    span{
+        font-size: 12px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    .icon{
+        margin-left: 10px;
+    }
+}
+
+.infoWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 25px;
+    gap: 2px;
+}
+
+.arrowIcon{
+    width: 11px;
+    height: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.products{
+    margin-top: 40px;
+
+    .itemsList{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        justify-content: center;
+        align-items: center;
+        min-height: 200px; 
+    }
+
+    .loading, .noResultsContainer {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    .mainContent {
+        padding: 50px 50px 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .mainContent {
+        padding: 33px;
+    }
+    .inputWrapper{
+        max-width: unset;
+    }
+    .showing{
+        display: none;
+    }
+    .item-list {
+        gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

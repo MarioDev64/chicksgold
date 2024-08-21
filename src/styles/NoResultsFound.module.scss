@@ -1,0 +1,19 @@
+.noResultsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.noResultsImage {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.noResultsText {
+    font-size: 14px;
+}
+  

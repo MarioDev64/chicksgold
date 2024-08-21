@@ -1,0 +1,81 @@
+.page{
+    overflow: auto;
+    overflow-y: overlay;
+}
+
+.background_image{
+    height: 100%;
+    width: 100%;
+    object-position: top;
+    object-fit: cover;
+    top: 72px;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.mainContainer{
+    margin-top: 72px;
+    padding-bottom: 80px;
+    padding-top: 110px;
+    position: relative !important;
+    color: #fff;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: calc(1.5rem * .5);
+    padding-right: calc(1.5rem * .5);
+    width: 100%;
+    
+    
+}
+
+.title{
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.filtersArea{
+    margin-bottom: 12px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media(min-width: 3839px) {
+    .container {
+        max-width:2366px
+    }
+}
+
+@media(min-width: 1200px)and (max-width:3839px) {
+    .container {
+        max-width:1260px
+    }
+}
+
+@media(min-width: 768px)and (max-width:992px) {
+    .container {
+        max-width:566px;
+        width: inherit !important;
+    }
+    .title{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        padding-left:20px;
+        padding-right: 20px;
+        width: inherit;
+    }
+    .title{
+        font-size:20px
+    }
+}
