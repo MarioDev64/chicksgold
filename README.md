@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# CryptoTracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based application that displays a list of products with pagination and filtering functionality. The project is built using Vite, React, TypeScript, and SASS. The application features components for loading, displaying product cards, handling no results found, and implementing pagination.
 
-Currently, two official plugins are available:
+- **Product List**: Displays a list of products with pagination.
+- **Search Filter**: Allows users to filter products by name or description.
+- **Pagination**: Supports navigation between pages with a maximum of 15 products per page.
+- **Loading Indicator**: Displays a loading spinner when filtering results.
+- **No Results Found**: Shows a message when no products match the search criteria.
+- **Responsive Design**: The application is responsive and adapts to different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- **React.js**: For building the user interface.
+- **TypeScript**: For type safety and better development experience.
+- **Vite**: As the build tool for fast development.
+- **SASS**: For styling the components using CSS modules.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+Follow the instructions below to set up and run the project locally.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Prerequisites
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Make sure you have the following installed on your machine:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/MarioDev64/chicksgold.git
+   cd chicksgold```
+
+2. **Install the dependencies:**:
+  ```bash
+  npm install
+  # or
+  yarn install
+  ```
+
+### Running project
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  ```
+    
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+### Contributing
+  Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
